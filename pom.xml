@@ -8,7 +8,7 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>Ferrari</module>
+        <module>Manchester</module>
 		<module>AstonMartin</module>
         <module>MercedesBenz</module>
     </modules>
