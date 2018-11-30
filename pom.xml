@@ -2,9 +2,10 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.cobbsystemsgroup</groupId>
-	<artifactId>csg-root</artifactId>
+	<artifactId>DevOps-Root</artifactId>
     <name>DevOps</name>
 	<version>1.0-SNAPSHOT</version>
+	<description>This is a repository to manage the DevOps</description>
     <packaging>pom</packaging>
 
     <modules>
@@ -116,13 +117,13 @@
                             <goal>process</goal>
                         </goals>
                         <configuration>
-                            <outputDirectory>src/main/querydsl</outputDirectory>
+                            <!--<outputDirectory></outputDirectory>
                             <processor>com.querydsl.apt.jpa.JPAAnnotationProcessor</processor>
                             <options>
                                   <querydsl.entityAccessors>true</querydsl.entityAccessors>
                                   <querydsl.listAccessors>true</querydsl.listAccessors>
                                   <querydsl.mapAccessors>true</querydsl.mapAccessors>
-                            </options>
+                            </options>-->
                         </configuration>
                     </execution>
                 </executions>
